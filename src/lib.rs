@@ -2,3 +2,8 @@
 //! yew-transition-group provides components that manage transitions for child components
 //!
 //!
+
+mod timeout;
+mod transition;
+
+pub use transition::Transition;
