@@ -6,4 +6,5 @@
 mod timeout;
 mod transition;
 
-pub use transition::Transition;
+pub use timeout::Timeout;
+pub use transition::{Transition, TransitionProps, TransitionState};

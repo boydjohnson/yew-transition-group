@@ -1,0 +1,18 @@
+[package]
+name = "yew-transition-group"
+version = "0.0.1"
+edition = "2021"
+authors = ["Boyd Johnson <johnson.boyd@gmail.com>"]
+repository = "https://github.com/boydjohnson/yew-transition-group"
+homepage = "https://github.com/boydjohnson/yew-transition-group"
+documentation = "https://docs.rs/yew-transition-group/"
+license = "MIT OR Apache-2.0"
+keywords = ["web", "frontend", "web-programming"]
+categories = ["gui", "wasm", "web-programming"]
+description = "Simple, lightweight components to control the transitions of your components, based on react-transition-group"
+readme = "../README.md"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gloo-timers = { version = "0.2", features = ["futures"] }
+yew = "0.19"
