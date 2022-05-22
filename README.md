@@ -11,8 +11,7 @@ Based off of `react-transition-group`.
 Cargo.toml
 ```
 [dependencies]
-yew-transition-group = { git = "https://github.com/boydjohnson/yew-transition-group" }
-
+yew-transition-group = "0.0.1"
 ```
 
 In view
